@@ -1,0 +1,75 @@
+- 효과를 누구에게 줄것인가를 선택한다.
+
+선택자 Selector (ex a)
+
+효과 declararion 선언 (ex color:red )
+
+속성 property (ex color)
+
+속성값 property value (ex red)
+
+- ; 세미콜론 : 하나의 디스크립션(서술,기술,묘사,표현)이 시작되고 끝나는것을 구분
+
+-align: 정렬하다
+
+- - :하이픈, 대쉬
+
+- css text size property 검색 예시
+
+- https://www.w3schools.com/
+
+- 이것들을 알아내는 데에 1분밖에 걸리지 않는다면 우리는 저것을 알고있는 것이나 다름없다, 라는 겁니다. 이런 시대에도 우리가 이러한 Property들을 머리속에 암기할 필요가 있을까요?
+
+- '뇌를 이기는 의지는 없다.' 예, 뇌를 혹사시키면 뇌는 수단과 방법을 가리지 않고 그 일을 하지 않을 방법을 찾거든요
+
+- 힘들때 보기. WEB2 CSS - 6.
+
+- 우선순위 : id선택자 > class 선택자 > 태그 선택자 (구체적>포괄적)
+		#	.	a
+
+- 같은 선택자 우선순위 : 가장 마지막
+
+- element = tag
+
+- block level element : 화면 전체를 쓰는 태그 element = tag (ex h1)
+
+- inline element : 자기자신의 부피, 콘텐츠 크기만큼을 갖는 태그 (ex a)
+
+- 태그가 표시되는 방법
+display: inline;
+display: block;
+display: none;
+
+- block 특징 바꾸고 싶다 : width(폭)
+
+- CSS 박스 모델 : html 태그 하나하나를 일종의 박스로 취급해서, 그것의 '부피감'을 결정하는것.
+
+- 정보들을 잘 배치하는, 레이아웃을 잘 짜는 방법! 플렉스 그리드!
+
+- 디자인이라는 목적을 위해서 어떤 의미도 존재하지 않는 태그를 사용해야 될때
+=아무런 의미가 없고 단지 디자인의 용도로만 쓰는 태그
+=무색 무취와 같은 태그 div (division) : blok level element 태그임 (화면 전체를 씀)
+=같은목적인 태그 span : inline element
+
+- 두개의 태그를 나란히 등 어떤 배치를 하고 싶으면 그것을 감싸는 부모태그가 필요함
+
+- fr : 화면 전체를 쓰게 자동으로 조정되는 단위
+
+- caniuse.com
+
+- column : 열, row : 행
+grit-template-columns:
+
+- ☆코드 유효성 검사 : https://validator.w3.org/#validate_by_input
+
+- 반응형 웹 = 반응형 디자인 = Responsive Web
+
+:화면에 크기에 따라서 웹페이지의 각 요소들이 반응해서 최적화된 모양으로 바뀌게 하는것
+
+- 미디어쿼리
+screen width < 800px
+@media(max-width: 800px) 
+
+- CSS를 지탱하는 2개의 뿌리(주어-서술어 관계 처럼)
+선택자: 알고있는 속성을 더 정확하게 표현 
+속성: 더 풍부한 표현력
