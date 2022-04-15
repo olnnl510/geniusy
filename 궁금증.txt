@@ -1,7 +1,6 @@
 ch03
 
 -----
-
 operator.php
 
 Q 왜 그냥
@@ -25,34 +24,22 @@ Q 왜 $i=12 를 하면 무한루프를 도는걸까?
 
 -----
 
-
 do_while.php
 
 Q 일단 do에 있는것 실행한 후 -> while이 아니라면 ??? 끝? (브레이크)
 
-
 -----
-
-
 
 for_mission10.php 해결x
 mission1.php 해결x
 
-
-
-
 -----
-
-
 
 positive.php
 
 Q $result 값에 -1 넣으면 Negative 뜨는 이유? *0.5 먹히지 않아서?????
 반으로 쪼개지지 않아서?
 
+-----
 
-
-
-
-
-
+///// ch05 복습할차례
