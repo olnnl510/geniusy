@@ -89,9 +89,22 @@ string : 문자열
 
 비교연산자는 boolean(true or false) 이라는 데이터타입을 만들어낸다.
 
-
 - var_dump(1);
 int(1)
 var_dump('11');
 string(2) "11"
 var_dump함수 : 입력값의 데이터 타입까지 출력해줌
+
+- expr : expression 표현식(값이 온다)
+
+- if(true or flase = boolean data type){실행되어야 할 코드}
+
+- expression : 값이 오는것. 최종적으로 값이 되는것 (ex 1, 1+1)
+statement : 문법
+
+- while (expr)
+statement
+
+: while 반복문 : 트루면 실행 트루 실행 트루 실행 반복..... 펄스 실행x 까지!
+: 조건이 만족되는 동안 반복적으로 실행(loop루프)
+: while : ~하는 동안에
