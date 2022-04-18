@@ -108,3 +108,35 @@ statement
 : while 반복문 : 트루면 실행 트루 실행 트루 실행 반복..... 펄스 실행x 까지!
 : 조건이 만족되는 동안 반복적으로 실행(loop루프)
 : while : ~하는 동안에
+
+- 배열(array) : 서로 연관된 데이터를 담는 그릇으로써 배열이 쓰인다.
+
+- 내장함수 : built-in function
+
+- 함수(statement)로 들어오는 입력값
+parameter, argument
+
+ex)
+
+function sum($left, $right) {
+	print($left+$right);
+	print("<br>");
+	}
+sum(2,4);
+sum(4,6);
+
+: $left, $right 변수 : parameter(파라미터,매개변수) 입력값을 받아서 함수 안에서만 사용되는것
+: 2,4 4,6 (구체적인 입력값(표현식)) : argumetn(아규먼트) 입력한 실제값
+
+- 함수 정의
+function 함수의이름(파라미터1, 파라미터2){
+return 최종적으로 작업한 결과(함수를 실행한결과)
+}
+
+- 함수 : 정리정돈을 위한 (마법의) 수납상자다.
+
+- form : 사용자의 정보를 서버쪽으 전송할 때 사용
+
+- 숫자 대신 문자로 이름을 줄수있는 배열 : 연관배열
+
+-
