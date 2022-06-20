@@ -179,3 +179,25 @@ for : corworkers 에 있는 키를 하나하나 꺼내 중괄호에 있는 코�
 - 객체에 소속된 변수의 값으로 함수를 지정할 수 있고
 = 객체에 소속된 함수(메소드. 여기서는 showAll)를 만들 수 있음
 객체에 소속된 변수(프로퍼티. 여기서는 programmer, designer, bookkeeper, data scientist )
+
+- 서로 연관된 코드들을 파일로 묶어서 그룹핑
+
+- cache(캐시) : 저장한다
+
+- jQeury
+
+- UI : User Interface
+
+- API : Application Programming Interface (ex alert)
+
+- document객체
+ DOM document 객체는 DOM(Document Object Model)의 일부
+ window객체
+ ajax
+ cookie
+ offline web application
+ webRTC
+ speech
+ webGL
+ webVR
+...
