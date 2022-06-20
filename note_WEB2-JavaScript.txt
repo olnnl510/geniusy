@@ -159,5 +159,23 @@ for : corworkers 에 있는 키를 하나하나 꺼내 중괄호에 있는 코�
             // document.write(key+"<br>"); // 키값이 반복
             // document.write(coworkers[key]+"<br>"); // 값이 반복 (=배열[인덱스])
             document.write(key+' : '+coworkers[key]+"<br>");
-
         }
+
+- 객체에는 데이터를 담을 수 있음 (문자, 숫자, 배열, '함수'='메소드' 등등)
+
+-             coworkers.showAll = function() {
+            }
+=
+               function showAll() {
+            }
+
+-             coworkers.showAll = function() {
+                // showAll 을 하면 coworkers에 있는 모든 데이터들을 iterate(반복)해서 화면에 출력하는 코드를 넣음
+                document.write(key+' : '+coworkers[key]+"<br>");
+            }
+
+☆ - this : 함수 안에서 함수가 소속된 객체를 가리키는 약속된 기호
+
+- 객체에 소속된 변수의 값으로 함수를 지정할 수 있고
+= 객체에 소속된 함수(메소드. 여기서는 showAll)를 만들 수 있음
+객체에 소속된 변수(프로퍼티. 여기서는 programmer, designer, bookkeeper, data scientist )
