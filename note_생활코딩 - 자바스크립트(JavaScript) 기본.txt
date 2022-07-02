@@ -1,0 +1,237 @@
+Math.pow(3,2);       // 9,   3의 2승 
+Math.round(10.6);    // 11,  10.6을 반올림
+Math.ceil(10.2);     // 11,  10.2를 올림
+Math.floor(10.6);    // 10,  10.6을 내림
+Math.sqrt(9);        // 3,   3의 제곱근
+Math.random();       // 0부터 1.0 사이의 랜덤한 숫자
+
+//문자와 문자를 더할떄는 아래와 같이
+alert("coding"+" everybody");
+//결과 : coding everybody
+
+//문자의 길이를 구할때는 문자 뒤에 .length 를 붙입니다.
+alert("coding everybody".length);
+//결과 : 16
+
+"code".indexOf("o")
+//결과 : 1
+
+- 변수 (Variable : 바뀔 수 있는) : 값을 유지할 필요가 있을 때 사용.
+문자나 숫자같은 값을 담는 일종의 그릇
+
+- var i = 0;
+// 종료조건으로 i의 값이 10보다 작다면 true, 같거나 크다면 false가 된다.
+while(i < 10){
+    // 반복이 실행될 때마다 coding everybody <br />이 출력된다. <br /> 줄바꿈을 의미하는 HTML 태그
+    document.write('coding everybody <br />');
+    // i의 값이 1씩 증가한다.
+    i++
+}
+
+
+- while문
+
+var i = 0;
+while(i<10) {
+document.write("Coding everybody<br>")
+i = i +1;
+}
+
+- for문
+
+for(초기화; 반복조건; 반복실행){
+    반복해서 실행될 코드
+}
+예제
+for(var i = 0; i < 10; i++){
+    document.write('coding everybody'+i+'<br />');
+}
+
+- iterate 반복하다 i
+
+- break;
+continue;
+
+- 익명함수 : 이름이없고, 바로실행 (정의와 동시에 호출)
+
+- 배열
+
+var member = ['egoing', 'k8805', 'sorialgi']
+alert(member[0]);
+alert(member[1]);
+alert(member[2]);
+
+배열 하나하나 각각의 값 : 원소(Element)
+
+- 내장함수, 사용자정의함수(function)
+
+- 배열에 값 추가
+
+var li = ['a', 'b', 'c'];
+alert(li);
+['a', 'b', 'c']
+
+li.push('d');
+alert(li);
+['a', 'b', 'c', 'd']
+
+li = li.concat(['e', 'f']);
+alert(li);
+['a', 'b', 'c', 'd', 'e', 'f']
+
+concatenate: 연결하다
+
+li.unshift('z');
+alert(li);
+['z', 'a', 'b', 'c', 'd', 'e', 'f']
+
+li.splice(2, 0, 'B'); // 2번째 index, 0개의 엘리먼트를 삭제하고, B를 집어넣는다
+alert(li);
+['z', 'a', 'B', 'b', 'c', 'd', 'e', 'f']
+
+li.splice(2, 1, C);
+alert(li);
+['z', 'a', 'B', 'b', 'c', 'd', 'e', 'f']
+
+li = ['a', 'b', 'c'];
+li.shift();
+li = ['b', 'c']
+
+li.pop();
+li = ['b']
+
+li = ['c', 'e', 'a', 'b', 'd'];
+li.sort();
+li = ['a', 'b', 'c', 'd', 'e', 'f'];
+
+li.reverse();
+li = ['f', 'e', 'd', 'c', 'b', 'a'];
+
+- 객체 (Object) : 배열과 유사한 역할.
+연관되어있는 데이터들을 담아내기 위한 일종의 그릇. (배열 ~ 객체 유사)
+인덱스로 우리가 직접 원하는 데이터를 지정할 수 있다는 점이 차이점.
+
+-var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80};
+for(key in grades) {
+    document.write("key : "+key+" value : "+grades[key]+"<br />");
+}
+
+- this : 자바스크립트의 약속되어있는 변수.
+속해있는 객체를 가리키는 변수.
+(함수가 소속되어있는 객체를 가르킴)
+
+- 객체지향 프로그래밍 : 서로 연관되어있는 '데이터'와
+연관되어 있는 '처리'(ex 함수)를
+하나의 그릇안에 모아서 그룹핑 해놓은 프로그래밍 스타일 기법
+
+- 정규표현식
+
+추출, test, 치환
+
+필요한 정보를 추출하는것,
+자신이 확인하고자 하는 정보가 있는지 없는지를 테스트 하는것,
+검색도니 정보를 다른정보로 치환하는것
+
+Reg.Exp : 정규표현식 객체. 패턴이 들어있다. pattern.
+
+pattern.exec('abcde'); 검색하고자하는 대상 입력
+
+- exec : 추출 ((execution) : 실행)
+
+- test : 테스트 (리턴값 불린)
+
+- replace : 치환
+
+
+- 값으로서의 함수
+
+함수는 변수에 저장될 수 있고,
+객체에도 저장될 수 있음 (객체에 저장되어 있는 함수 : 메소드)
+
+함수는 인자로도 전달될 수 있고
+return 값으로도 사용될 수 있다
+
+- 속성(property) : 객체 안에서 변수의 역할을 하는것
+
+속성에 저장돼있는 값이 함수라면 ? 그 함수는 메소드(method)
+
+a객체 안 {
+b : function() {
+}
+}
+
+b: 속성(property), function:메소드(method)
+
+
+
+
+
+
+Q node.js
+jQuery
+콜백
+클로저
+
+
+- var obj = {a: 1, b: 2, c: 3};
+
+for (const prop in obj) {
+  console.log(`obj.${prop} = ${obj[prop]}`);
+}
+
+// Output:
+// "obj.a = 1"
+// "obj.b = 2"
+// "obj.c = 3"
+
+
+- 하나의 프로그램은 여러개의 형태의 로직으로 이루어져 있다.
+
+객체 : 로직과 관련된 변수, 메소드 들을 그룹핑 시켜놓은 것
+
+좋은 객체를 만든다는것은? 로직을 재활용 가능하도록 부품화 하는것.
+
+
+- 파일과 디렉토리가 있을 때
+메소드, 변수가 파일이라면
+이 파일을 그룹핑하는 디렉토리가 객체라고 할 수 있음
+
+- 객체에 담겨있는 변수 : 프로퍼티property(속성)
+
+프로퍼티에 담겨있는 함수 : 메소드method(방법)
+
+(함수안에 담겨있는 함수 : 메소드)
+
+QQQQQ?????
+
+- 생성자(constructor) : 객체를 만드는 역할을 하는 함수.
+
+- this : 메소드가 소속되어있는 객체
+
+( = 함수를 호출했을 때 this의 값이 window가 된다는것)
+
+- this : 생성자로 사용될때는 생성될 객체를 가르킴
+
+- this : 함수로 호출하게되면 윈도우를 가르킴
+
+
+
+function sum(x,y) {return x+y;} // 함수 리터럴
+=
+var sum2 = new function('x', 'y', 'return x+y;');
+
+var o = { } // 객체 리터럴
+
+new object // "
+
+var a = [1, 2, 3]; // 배열 리터럴
+
+new Array(1, 2, 3) // 변수 만들 때
+
+
+
+- 함수의 메소드인 apply, call을 이용하면 this의 값을 제어할 수 있다. 
+
+Q object.API
+
+- . : Object access operator 객체 접근 연산자
