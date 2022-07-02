@@ -18,6 +18,9 @@
 <WEB2 - JavaScript>
 38/38강
 
+<WEB3 - (JavaSscript) Ajax>
+12/16강
+ 
 <WEB3 - PHP & MySQL> -> 게시판 수정
 /31강
 
@@ -31,7 +34,7 @@
 36강
 
 <자바스크립트>
-102강
+102강/102강
 https://www.youtube.com/watch?v=PZIPsKgWJiw&feature=emb_imp_woyt
 
 
