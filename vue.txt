@@ -1,0 +1,76 @@
+vue.js
+
+src(source) : 소스
+assets : 자원 (거의 이미지들이 관리됨)
+components "핵심" : .vue 파일 모여있는곳 (부모역할 : Appl.vue)
+
+components들의 모임 : vue의 화면구성!
+재활용성 극대화 하기위해 하는것
+화면에 객체지향이 들어갔다고 보면 됨
+
+main.js : 실제 제일 처음 실행되는 자바스크립트
+
+pakage.json : 설치되어 있는것들이 무엇인지 보임
+devDependencies : 개발할동안 쓸 라이브러리
+dependencies : 개발, 런칭할동안 쓸 라이브러리
+scripts : 명령어 실행시켜줌 (가상서버 실행시) npm run serve,build,lint~
+
+
+App.vue
+
+data 멤버필드에 : { } , 객체
+
+v-model : 이벤트 2개 걸려있음.
+hello 값 바인드, 값을 바꿀때마다 실제로 값이 바뀌도록 change.
+
+
+
+
+
+
+
+
+
+새로운 프로젝트 생성 : vue create 서버명
+
+서버 시작 : npm run serve
+
+수정 : npm run build (dist 폴더 생성 -> php 폴더에 붙여넣기)
+
+router : vue add router
+
+통신 axios 설치 : npm i --s axios
+──────────
+router - 싱글 페이지 기법
+
+- App.vue
+a태그 추가
+
+- index.js
+상단 import
+하단 배열에 객체로 넣어줌
+──────────
+
+
+mixins
+
+통신하는 친구. 계속 import 하지않고, vue 에다 박아서 전역에서 쉽게 쓸수 있도록 해주는 기능. 재사용성 극대화.
+
+
+
+
+<layout 구조>
+App.vue
+↓
+Boxoffice
+↓
+RankTable
+↓
+RankRow
+
+
+
+
+프론트엔드 - D\ VUE-SHOP_PJT
+
+백엔드 - PHPSHOP
